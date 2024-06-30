@@ -1,0 +1,119 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Progects\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3282C446-9072-7F37-C966-D43E99415F5A}|View.csproj|D:\\Progects\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\assets\\code\\inputsystem\\ui\\view\\selecteditemview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3282C446-9072-7F37-C966-D43E99415F5A}|View.csproj|solutionrelative:assets\\code\\inputsystem\\ui\\view\\selecteditemview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDACE720-1849-A350-208E-45E12E8A54DF}|NewAssembly.csproj|d:\\progects\\animalsinforest_rts_stategy3d\\animalsinforest_3d\\assets\\code\\inputsystem\\ui\\presenter\\selecteditempresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDACE720-1849-A350-208E-45E12E8A54DF}|NewAssembly.csproj|solutionrelative:assets\\code\\inputsystem\\ui\\presenter\\selecteditempresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDACE720-1849-A350-208E-45E12E8A54DF}|NewAssembly.csproj|D:\\Progects\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\assets\\code\\inputsystem\\ui\\presenter\\inputcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDACE720-1849-A350-208E-45E12E8A54DF}|NewAssembly.csproj|solutionrelative:assets\\code\\inputsystem\\ui\\presenter\\inputcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DAEBBB96-66E3-C656-5AB6-E3D8BB826B1E}|ModelUI.csproj|D:\\Progects\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\assets\\code\\inputsystem\\ui\\model\\selecteditemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAEBBB96-66E3-C656-5AB6-E3D8BB826B1E}|ModelUI.csproj|solutionrelative:assets\\code\\inputsystem\\ui\\model\\selecteditemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A6745BF-852D-4B8C-BC2F-1C4A87FB3F25}|Core.csproj|D:\\Progects\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\assets\\code\\core\\mainbuilding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A6745BF-852D-4B8C-BC2F-1C4A87FB3F25}|Core.csproj|solutionrelative:assets\\code\\core\\mainbuilding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCFDA81A-094B-1FFC-7FBC-259819682404}|Abstractions.csproj|D:\\Progects\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\assets\\code\\abstractions\\iselecatable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCFDA81A-094B-1FFC-7FBC-259819682404}|Abstractions.csproj|solutionrelative:assets\\code\\abstractions\\iselecatable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InputController.cs",
+              "DocumentMoniker": "D:\\Progects\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\InputSystem\\UI\\Presenter\\InputController.cs",
+              "RelativeDocumentMoniker": "Assets\\Code\\InputSystem\\UI\\Presenter\\InputController.cs",
+              "ToolTip": "D:\\Progects\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\InputSystem\\UI\\Presenter\\InputController.cs",
+              "RelativeToolTip": "Assets\\Code\\InputSystem\\UI\\Presenter\\InputController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAcAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T14:47:23.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SelectedItemModel.cs",
+              "DocumentMoniker": "D:\\Progects\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\InputSystem\\UI\\Model\\SelectedItemModel.cs",
+              "RelativeDocumentMoniker": "Assets\\Code\\InputSystem\\UI\\Model\\SelectedItemModel.cs",
+              "ToolTip": "D:\\Progects\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\InputSystem\\UI\\Model\\SelectedItemModel.cs",
+              "RelativeToolTip": "Assets\\Code\\InputSystem\\UI\\Model\\SelectedItemModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T12:49:42.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SelectedItemPresenter.cs",
+              "DocumentMoniker": "D:\\Progects\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\InputSystem\\UI\\Presenter\\SelectedItemPresenter.cs",
+              "RelativeDocumentMoniker": "Assets\\Code\\InputSystem\\UI\\Presenter\\SelectedItemPresenter.cs",
+              "ToolTip": "D:\\Progects\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\InputSystem\\UI\\Presenter\\SelectedItemPresenter.cs",
+              "RelativeToolTip": "Assets\\Code\\InputSystem\\UI\\Presenter\\SelectedItemPresenter.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACcAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T12:44:32.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SelectedItemView.cs",
+              "DocumentMoniker": "D:\\Progects\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\InputSystem\\UI\\View\\SelectedItemView.cs",
+              "RelativeDocumentMoniker": "Assets\\Code\\InputSystem\\UI\\View\\SelectedItemView.cs",
+              "ToolTip": "D:\\Progects\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\InputSystem\\UI\\View\\SelectedItemView.cs",
+              "RelativeToolTip": "Assets\\Code\\InputSystem\\UI\\View\\SelectedItemView.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T12:49:29.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainBuilding.cs",
+              "DocumentMoniker": "D:\\Progects\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\Core\\MainBuilding.cs",
+              "RelativeDocumentMoniker": "Assets\\Code\\Core\\MainBuilding.cs",
+              "ToolTip": "D:\\Progects\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\Core\\MainBuilding.cs",
+              "RelativeToolTip": "Assets\\Code\\Core\\MainBuilding.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T10:42:33.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ISelecatable.cs",
+              "DocumentMoniker": "D:\\Progects\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\Abstractions\\ISelecatable.cs",
+              "RelativeDocumentMoniker": "Assets\\Code\\Abstractions\\ISelecatable.cs",
+              "ToolTip": "D:\\Progects\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\Abstractions\\ISelecatable.cs",
+              "RelativeToolTip": "Assets\\Code\\Abstractions\\ISelecatable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T11:46:30.791Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
