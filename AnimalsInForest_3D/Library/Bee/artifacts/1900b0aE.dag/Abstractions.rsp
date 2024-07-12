@@ -348,6 +348,9 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"D:/Unity/2022.3.34f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"D:/Unity/2022.3.34f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Assets/Code/Abstractions/CommandExecutorBase.cs"
+"Assets/Code/Abstractions/ICommand.cs"
+"Assets/Code/Abstractions/ICommandExecutor.cs"
 "Assets/Code/Abstractions/ISelecatable.cs"
 -langversion:9.0
 /deterministic

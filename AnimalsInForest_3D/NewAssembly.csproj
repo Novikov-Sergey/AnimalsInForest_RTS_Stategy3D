@@ -61,7 +61,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Code\InputSystem\UI\Presenter\InputController.cs" />
+    <Compile Include="Assets\Code\InputSystem\UI\Presenter\BuildingSelectorPresenter.cs" />
     <Compile Include="Assets\Code\InputSystem\UI\Presenter\SelectedItemPresenter.cs" />
+    <Compile Include="Assets\Code\InputSystem\UI\Presenter\CommandButtonsPresenter.cs" />
+    <Compile Include="Assets\Code\InputSystem\UI\Presenter\OutlineSelectorPresenter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Code\InputSystem\UI\Presenter\Presenter.asmdef" />

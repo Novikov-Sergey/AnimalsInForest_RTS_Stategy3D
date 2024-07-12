@@ -7,23 +7,22 @@ namespace InputSystem.UI.Presenter
 {
     // Связующее звено между Model и View
     public class SelectedItemPresenter : MonoBehaviour
-    {
-        
+    {        
         [SerializeField] private SelectedItemModel _model;
         //Притягиваем вьюшку меню
-        [SerializeField] private SelectedItemView _view;
+        [SerializeField] private SelectedItemView _view;              
 
         public void Start()
         {
-            _model.OnUpdated += UpdateView;
+            _model.OnUpdated += UpdateView;            
             UpdateView();
         }
 
         public void OnDestroy()
         {
-            _model.OnUpdated -= UpdateView;
+            _model.OnUpdated -= UpdateView;            
         }
-
+        
         // Обновляем Вьюшку
         private void UpdateView ()
         {

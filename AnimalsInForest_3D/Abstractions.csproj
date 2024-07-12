@@ -61,6 +61,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Code\Abstractions\ISelecatable.cs" />
+    <Compile Include="Assets\Code\Abstractions\ICommandExecutor.cs" />
+    <Compile Include="Assets\Code\Abstractions\CommandExecutorBase.cs" />
+    <Compile Include="Assets\Code\Abstractions\ICommand.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Code\Abstractions\Abstractions.asmdef" />
