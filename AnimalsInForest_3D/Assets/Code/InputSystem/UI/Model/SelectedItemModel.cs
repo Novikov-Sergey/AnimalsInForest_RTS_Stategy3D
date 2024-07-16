@@ -13,12 +13,18 @@ namespace InputSystem.UI.Model
         public ISelecatable Value => _value;
 
         public event Action OnUpdated;
+        public event Action OnZero;
 
         //Сохраняем параметры и запускаем событие
         public void SetValue (ISelecatable value)
         {
             _value = value;
             OnUpdated?.Invoke();
+        }
+
+        public void SetZero()
+        {
+            OnZero?.Invoke();
         }
     }
 }

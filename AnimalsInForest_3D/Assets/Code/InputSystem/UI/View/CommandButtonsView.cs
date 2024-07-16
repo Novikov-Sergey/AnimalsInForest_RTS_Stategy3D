@@ -9,9 +9,7 @@ using Abstraction;
 namespace InputSystem.UI.View
 {
     public class CommandButtonsView : MonoBehaviour
-    {
-        public Action<ICommandExecutor> OnClick;
-
+    {       
         [SerializeField] private GameObject _attackButton;
         [SerializeField] private GameObject _moveButton;
         [SerializeField] private GameObject _patrolButton;
@@ -19,8 +17,9 @@ namespace InputSystem.UI.View
         [SerializeField] private GameObject _produceUnitButton;
 
         private Dictionary<Type, GameObject> _buttonsByExecutorType;
+        public  Action<ICommandExecutor> _onClick;
 
-        private void Start()
+        private void Awake()
         {
             _buttonsByExecutorType = new Dictionary<Type, GameObject>();
             _buttonsByExecutorType
@@ -32,24 +31,28 @@ namespace InputSystem.UI.View
             _buttonsByExecutorType
             .Add(typeof(CommandExecutorBase<IStopCommand>), _stopButton);
             _buttonsByExecutorType
-            .Add(typeof(CommandExecutorBase<IProduceUnitCommand>),
-            _produceUnitButton);
+            .Add(typeof(CommandExecutorBase<IProduceUnitCommand>), _produceUnitButton);
         }
 
         public void MakeLayout(IEnumerable<ICommandExecutor> commandExecutors)
         {
             foreach (var currentExecutor in commandExecutors)
             {
-                var buttonGameObject = _buttonsByExecutorType
-                .Where(type => type
-                .Key
-                .IsAssignableFrom(currentExecutor.GetType())
-                )
-                .First()
-                .Value;
+                var buttonGameObject = _buttonsByExecutorType.FirstOrDefault(kvp => kvp.Key.IsInstanceOfType(currentExecutor)).Value;
+
+                if (buttonGameObject == null) continue;
+
+              //  var buttonGameObject = _buttonsByExecutorType
+              //  .Where(type => type
+              //  .Key
+              //  .IsAssignableFrom(currentExecutor.GetType()))
+              //  .First()
+              //  .Value;
+
                 buttonGameObject.SetActive(true);
+
                 var button = buttonGameObject.GetComponent<Button>();
-                button.onClick.AddListener(() => OnClick?.Invoke(currentExecutor));
+                button.onClick.AddListener(() => _onClick?.Invoke(currentExecutor));
             }
         }
 

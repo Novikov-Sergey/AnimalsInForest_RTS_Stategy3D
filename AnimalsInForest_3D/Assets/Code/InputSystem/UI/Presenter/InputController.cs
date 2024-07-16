@@ -25,6 +25,10 @@ namespace InputSystem.UI.Presenter
                         //Передаем инфо модель выбранного объекта
                         _currentSelected.SetValue(selectedItem);
                     }
+                    else
+                    {
+                        _currentSelected.SetZero();
+                    }
                 }
             }
         }

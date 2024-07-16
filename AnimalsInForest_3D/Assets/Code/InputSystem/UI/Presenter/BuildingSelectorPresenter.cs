@@ -1,6 +1,7 @@
 using Abstraction;
 using InputSystem.UI.Model;
 using InputSystem.UI.View;
+using Unity.VisualScripting.YamlDotNet.Core.Tokens;
 using UnityEngine;
 
 
@@ -15,21 +16,31 @@ namespace InputSystem.UI.Presenter
         public void Start()
         {
             _model.OnUpdated += OnSelected;
+            _model.OnZero += ClearHeand;
             OnSelected();
         }
 
         public void OnDestroy()
         {
             _model.OnUpdated -= OnSelected;
+            _model.OnZero -= ClearHeand;
+        }
+
+        private void ClearHeand()
+        {
+            if (_selectedBuildings != null)
+            {                 
+                _selectedBuildings.SetSelected(false);
+                _currentSelectable = null;
+            }
         }
 
         private void OnSelected()
-        {
+        {            
             if (_currentSelectable == _model.Value)
             {
                 return;
             }
-
             // назначаем выделенный объект
             _currentSelectable = _model.Value;
 

@@ -14,15 +14,23 @@ namespace InputSystem.UI.Presenter
 
         public void Start()
         {
-            _model.OnUpdated += UpdateView;            
+            _model.OnUpdated += UpdateView;
+            _model.OnZero += ClearHeand;
             UpdateView();
         }
 
         public void OnDestroy()
         {
-            _model.OnUpdated -= UpdateView;            
+            _model.OnUpdated -= UpdateView;
+            _model.OnZero -= ClearHeand;
         }
-        
+
+
+        private void ClearHeand()
+        {
+            _view.gameObject.SetActive(false);
+        }
+
         // Обновляем Вьюшку
         private void UpdateView ()
         {

@@ -15,12 +15,23 @@ namespace InputSystem.UI.Presenter
         private void Start()
         {
             _model.OnUpdated += OnSelected;
+            _model.OnZero += ClearHeand;
             OnSelected();
         }
 
         public void OnDestroy()
         {
             _model.OnUpdated -= OnSelected;
+            _model.OnZero -= ClearHeand;
+        }
+
+        private void ClearHeand()
+        {
+            if (_currentSelectable != null)
+            {
+                setSelected(_outlineSelectors, false);
+                _currentSelectable = null;
+            }
         }
 
         private void OnSelected()
@@ -30,7 +41,6 @@ namespace InputSystem.UI.Presenter
             {
                 return;
             }
-
             // назначаем выделенный объект
             _currentSelectable = _model.Value;
 
@@ -47,16 +57,15 @@ namespace InputSystem.UI.Presenter
                 _outlineSelectors = (_model.Value as Component)?.GetComponentsInParent<SelectedOutlineView>();
                 // отправляем привязаный компонент в обработчик
                 setSelected(_outlineSelectors, true);
-            }
-
-            static void setSelected(SelectedOutlineView[] selectors, bool value)
+            }       
+        }
+        private void setSelected(SelectedOutlineView[] selectors, bool value)
+        {
+            if (selectors != null)
             {
-                if (selectors != null)
+                for (int i = 0; i < selectors.Length; i++)
                 {
-                    for (int i = 0; i < selectors.Length; i++)
-                    {
-                        selectors[i].SetSelected(value);
-                    }
+                    selectors[i].SetSelected(value);
                 }
             }
         }
