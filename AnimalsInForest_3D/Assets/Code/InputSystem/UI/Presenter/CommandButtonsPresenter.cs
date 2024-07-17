@@ -4,6 +4,7 @@ using InputSystem.UI.Model;
 using InputSystem.UI.View; 
 using System.Linq;
 using UnityEngine;
+using Utils;
 
 
 namespace InputSystem.UI.Presenter
@@ -12,6 +13,9 @@ namespace InputSystem.UI.Presenter
     {
         [SerializeField] private SelectedItemModel _model;
         [SerializeField] private CommandButtonsView _view;
+
+        [SerializeField] private AssetsStorage _assets;
+
         private ISelecatable _currentSelectable;
 
         private void Start()
@@ -65,7 +69,7 @@ namespace InputSystem.UI.Presenter
         // Область реакции на кнопки команд
         private void OnButtonClick(ICommandExecutor commandExecutor)
         {
-            commandExecutor.ExecuteCommand(new ProduceUnitCommand());
+            commandExecutor.ExecuteCommand(Injector.Inject(_assets, new ProduceUnitCommand()));
            // var unitProducer = commandExecutor as CommandExecutorBase<IProduceUnitCommand>;
 
            // if (unitProducer != null)

@@ -24,7 +24,7 @@ namespace InputSystem.UI.Model
 
         public void SetZero()
         {
-            OnZero?.Invoke();
+          //  OnZero?.Invoke();
         }
     }
 }

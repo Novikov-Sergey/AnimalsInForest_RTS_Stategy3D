@@ -183,6 +183,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _model: {fileID: 11400000, guid: a236d14d3b278184f97074a460bbd9d1, type: 2}
   _view: {fileID: 1919591643}
+  _assets: {fileID: 11400000, guid: 57b5878b33aaac34ea2d67521d0ed20f, type: 2}
 --- !u!1 &77996748
 GameObject:
   m_ObjectHideFlags: 0
