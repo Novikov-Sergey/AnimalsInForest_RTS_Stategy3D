@@ -3,20 +3,60 @@
   "WorkspaceRootPath": "C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BDACE720-1849-A350-208E-45E12E8A54DF}|NewAssembly.csproj|C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\assets\\code\\inputsystem\\ui\\presenter\\commandbuttonspresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3E5BA6EB-432F-98BE-4DA4-3692A94B3DA6}|Utils.csproj|C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\assets\\code\\utils\\injector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E5BA6EB-432F-98BE-4DA4-3692A94B3DA6}|Utils.csproj|solutionrelative:assets\\code\\utils\\injector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDACE720-1849-A350-208E-45E12E8A54DF}|NewAssembly.csproj|c:\\progworks\\animalsinforest_rts_stategy3d\\animalsinforest_3d\\assets\\code\\inputsystem\\ui\\presenter\\commandbuttonspresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BDACE720-1849-A350-208E-45E12E8A54DF}|NewAssembly.csproj|solutionrelative:assets\\code\\inputsystem\\ui\\presenter\\commandbuttonspresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{874A35E8-9AC4-B63E-5A72-F03F03C500B9}|Command.csproj|c:\\progworks\\animalsinforest_rts_stategy3d\\animalsinforest_3d\\assets\\code\\abstractions\\command\\produceunitcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{874A35E8-9AC4-B63E-5A72-F03F03C500B9}|Command.csproj|solutionrelative:assets\\code\\abstractions\\command\\produceunitcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{874A35E8-9AC4-B63E-5A72-F03F03C500B9}|Command.csproj|c:\\progworks\\animalsinforest_rts_stategy3d\\animalsinforest_3d\\assets\\code\\abstractions\\command\\patrolcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{874A35E8-9AC4-B63E-5A72-F03F03C500B9}|Command.csproj|solutionrelative:assets\\code\\abstractions\\command\\patrolcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{874A35E8-9AC4-B63E-5A72-F03F03C500B9}|Command.csproj|c:\\progworks\\animalsinforest_rts_stategy3d\\animalsinforest_3d\\assets\\code\\abstractions\\command\\movecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{874A35E8-9AC4-B63E-5A72-F03F03C500B9}|Command.csproj|solutionrelative:assets\\code\\abstractions\\command\\movecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{874A35E8-9AC4-B63E-5A72-F03F03C500B9}|Command.csproj|C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\assets\\code\\abstractions\\command\\stopcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{874A35E8-9AC4-B63E-5A72-F03F03C500B9}|Command.csproj|solutionrelative:assets\\code\\abstractions\\command\\stopcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A6745BF-852D-4B8C-BC2F-1C4A87FB3F25}|Core.csproj|C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\assets\\code\\core\\commandexecutors\\produceunitcommandexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A6745BF-852D-4B8C-BC2F-1C4A87FB3F25}|Core.csproj|solutionrelative:assets\\code\\core\\commandexecutors\\produceunitcommandexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A6745BF-852D-4B8C-BC2F-1C4A87FB3F25}|Core.csproj|C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\assets\\code\\core\\commandexecutors\\patrolcommandexecuter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A6745BF-852D-4B8C-BC2F-1C4A87FB3F25}|Core.csproj|solutionrelative:assets\\code\\core\\commandexecutors\\patrolcommandexecuter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A6745BF-852D-4B8C-BC2F-1C4A87FB3F25}|Core.csproj|C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\assets\\code\\core\\commandexecutors\\attackcommandexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A6745BF-852D-4B8C-BC2F-1C4A87FB3F25}|Core.csproj|solutionrelative:assets\\code\\core\\commandexecutors\\attackcommandexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCFDA81A-094B-1FFC-7FBC-259819682404}|Abstractions.csproj|C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\assets\\code\\abstractions\\commandexecutorbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCFDA81A-094B-1FFC-7FBC-259819682404}|Abstractions.csproj|solutionrelative:assets\\code\\abstractions\\commandexecutorbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{874A35E8-9AC4-B63E-5A72-F03F03C500B9}|Command.csproj|C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\assets\\code\\abstractions\\command\\attackcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{874A35E8-9AC4-B63E-5A72-F03F03C500B9}|Command.csproj|solutionrelative:assets\\code\\abstractions\\command\\attackcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A6745BF-852D-4B8C-BC2F-1C4A87FB3F25}|Core.csproj|C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\assets\\code\\core\\commandexecutors\\movecommandexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A6745BF-852D-4B8C-BC2F-1C4A87FB3F25}|Core.csproj|solutionrelative:assets\\code\\core\\commandexecutors\\movecommandexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A6745BF-852D-4B8C-BC2F-1C4A87FB3F25}|Core.csproj|C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\assets\\code\\core\\commandexecutors\\stopcommandexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A6745BF-852D-4B8C-BC2F-1C4A87FB3F25}|Core.csproj|solutionrelative:assets\\code\\core\\commandexecutors\\stopcommandexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3E5BA6EB-432F-98BE-4DA4-3692A94B3DA6}|Utils.csproj|C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\assets\\code\\utils\\assetsstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E5BA6EB-432F-98BE-4DA4-3692A94B3DA6}|Utils.csproj|solutionrelative:assets\\code\\utils\\assetsstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E5BA6EB-432F-98BE-4DA4-3692A94B3DA6}|Utils.csproj|c:\\progworks\\animalsinforest_rts_stategy3d\\animalsinforest_3d\\assets\\code\\utils\\injector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E5BA6EB-432F-98BE-4DA4-3692A94B3DA6}|Utils.csproj|solutionrelative:assets\\code\\utils\\injector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{874A35E8-9AC4-B63E-5A72-F03F03C500B9}|Command.csproj|C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\assets\\code\\abstractions\\command\\produceunitcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{874A35E8-9AC4-B63E-5A72-F03F03C500B9}|Command.csproj|solutionrelative:assets\\code\\abstractions\\command\\produceunitcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3E5BA6EB-432F-98BE-4DA4-3692A94B3DA6}|Utils.csproj|C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\assets\\code\\utils\\injectassetattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BDACE720-1849-A350-208E-45E12E8A54DF}|NewAssembly.csproj|C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\assets\\code\\inputsystem\\ui\\presenter\\inputcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BDACE720-1849-A350-208E-45E12E8A54DF}|NewAssembly.csproj|solutionrelative:assets\\code\\inputsystem\\ui\\presenter\\inputcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A6745BF-852D-4B8C-BC2F-1C4A87FB3F25}|Core.csproj|c:\\progworks\\animalsinforest_rts_stategy3d\\animalsinforest_3d\\assets\\code\\core\\commandexecutors\\produceunitcommandexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A6745BF-852D-4B8C-BC2F-1C4A87FB3F25}|Core.csproj|solutionrelative:assets\\code\\core\\commandexecutors\\produceunitcommandexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BDACE720-1849-A350-208E-45E12E8A54DF}|NewAssembly.csproj|C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\assets\\code\\inputsystem\\ui\\presenter\\buildingselectorpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -75,10 +111,6 @@
       "RelativeMoniker": "D:0:0:{CCFDA81A-094B-1FFC-7FBC-259819682404}|Abstractions.csproj|solutionrelative:assets\\code\\abstractions\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CCFDA81A-094B-1FFC-7FBC-259819682404}|Abstractions.csproj|C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\assets\\code\\abstractions\\commandexecutorbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCFDA81A-094B-1FFC-7FBC-259819682404}|Abstractions.csproj|solutionrelative:assets\\code\\abstractions\\commandexecutorbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CCFDA81A-094B-1FFC-7FBC-259819682404}|Abstractions.csproj|C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\assets\\code\\abstractions\\icommandexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CCFDA81A-094B-1FFC-7FBC-259819682404}|Abstractions.csproj|solutionrelative:assets\\code\\abstractions\\icommandexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -97,25 +129,148 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 355,
-          "SelectedChildIndex": 2,
+          "DockedWidth": 348,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "PatrolCommand.cs",
+              "DocumentMoniker": "C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\Abstractions\\Command\\PatrolCommand.cs",
+              "RelativeDocumentMoniker": "Assets\\Code\\Abstractions\\Command\\PatrolCommand.cs",
+              "ToolTip": "C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\Abstractions\\Command\\PatrolCommand.cs",
+              "RelativeToolTip": "Assets\\Code\\Abstractions\\Command\\PatrolCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T15:29:51.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CommandButtonsPresenter.cs",
+              "DocumentMoniker": "C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\InputSystem\\UI\\Presenter\\CommandButtonsPresenter.cs",
+              "RelativeDocumentMoniker": "Assets\\Code\\InputSystem\\UI\\Presenter\\CommandButtonsPresenter.cs",
+              "ToolTip": "C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\InputSystem\\UI\\Presenter\\CommandButtonsPresenter.cs",
+              "RelativeToolTip": "Assets\\Code\\InputSystem\\UI\\Presenter\\CommandButtonsPresenter.cs",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAowHYAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T21:13:56.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MoveCommand.cs",
+              "DocumentMoniker": "C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\Abstractions\\Command\\MoveCommand.cs",
+              "RelativeDocumentMoniker": "Assets\\Code\\Abstractions\\Command\\MoveCommand.cs",
+              "ToolTip": "C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\Abstractions\\Command\\MoveCommand.cs",
+              "RelativeToolTip": "Assets\\Code\\Abstractions\\Command\\MoveCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T15:27:24.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Injector.cs",
               "DocumentMoniker": "C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\Utils\\Injector.cs",
               "RelativeDocumentMoniker": "Assets\\Code\\Utils\\Injector.cs",
               "ToolTip": "C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\Utils\\Injector.cs",
               "RelativeToolTip": "Assets\\Code\\Utils\\Injector.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-17T09:52:19.642Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "StopCommand.cs",
+              "DocumentMoniker": "C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\Abstractions\\Command\\StopCommand.cs",
+              "RelativeDocumentMoniker": "Assets\\Code\\Abstractions\\Command\\StopCommand.cs",
+              "ToolTip": "C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\Abstractions\\Command\\StopCommand.cs",
+              "RelativeToolTip": "Assets\\Code\\Abstractions\\Command\\StopCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T15:20:01.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PatrolCommandExecuter.cs",
+              "DocumentMoniker": "C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\Core\\CommandExecutors\\PatrolCommandExecuter.cs",
+              "RelativeDocumentMoniker": "Assets\\Code\\Core\\CommandExecutors\\PatrolCommandExecuter.cs",
+              "ToolTip": "C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\Core\\CommandExecutors\\PatrolCommandExecuter.cs",
+              "RelativeToolTip": "Assets\\Code\\Core\\CommandExecutors\\PatrolCommandExecuter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T11:07:17.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AttackCommandExecutor.cs",
+              "DocumentMoniker": "C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\Core\\CommandExecutors\\AttackCommandExecutor.cs",
+              "RelativeDocumentMoniker": "Assets\\Code\\Core\\CommandExecutors\\AttackCommandExecutor.cs",
+              "ToolTip": "C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\Core\\CommandExecutors\\AttackCommandExecutor.cs",
+              "RelativeToolTip": "Assets\\Code\\Core\\CommandExecutors\\AttackCommandExecutor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T10:58:34.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AttackCommand.cs",
+              "DocumentMoniker": "C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\Abstractions\\Command\\AttackCommand.cs",
+              "RelativeDocumentMoniker": "Assets\\Code\\Abstractions\\Command\\AttackCommand.cs",
+              "ToolTip": "C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\Abstractions\\Command\\AttackCommand.cs",
+              "RelativeToolTip": "Assets\\Code\\Abstractions\\Command\\AttackCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T14:49:42.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CommandExecutorBase.cs",
+              "DocumentMoniker": "C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\Abstractions\\CommandExecutorBase.cs",
+              "RelativeDocumentMoniker": "Assets\\Code\\Abstractions\\CommandExecutorBase.cs",
+              "ToolTip": "C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\Abstractions\\CommandExecutorBase.cs",
+              "RelativeToolTip": "Assets\\Code\\Abstractions\\CommandExecutorBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T20:28:25.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MoveCommandExecutor.cs",
+              "DocumentMoniker": "C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\Core\\CommandExecutors\\MoveCommandExecutor.cs",
+              "RelativeDocumentMoniker": "Assets\\Code\\Core\\CommandExecutors\\MoveCommandExecutor.cs",
+              "ToolTip": "C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\Core\\CommandExecutors\\MoveCommandExecutor.cs",
+              "RelativeToolTip": "Assets\\Code\\Core\\CommandExecutors\\MoveCommandExecutor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T11:03:57.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "StopCommandExecutor.cs",
+              "DocumentMoniker": "C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\Core\\CommandExecutors\\StopCommandExecutor.cs",
+              "RelativeDocumentMoniker": "Assets\\Code\\Core\\CommandExecutors\\StopCommandExecutor.cs",
+              "ToolTip": "C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\Core\\CommandExecutors\\StopCommandExecutor.cs",
+              "RelativeToolTip": "Assets\\Code\\Core\\CommandExecutors\\StopCommandExecutor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T11:10:24.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "AssetsStorage.cs",
               "DocumentMoniker": "C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\Utils\\AssetsStorage.cs",
               "RelativeDocumentMoniker": "Assets\\Code\\Utils\\AssetsStorage.cs",
@@ -128,33 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CommandButtonsPresenter.cs",
-              "DocumentMoniker": "C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\InputSystem\\UI\\Presenter\\CommandButtonsPresenter.cs",
-              "RelativeDocumentMoniker": "Assets\\Code\\InputSystem\\UI\\Presenter\\CommandButtonsPresenter.cs",
-              "ToolTip": "C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\InputSystem\\UI\\Presenter\\CommandButtonsPresenter.cs",
-              "RelativeToolTip": "Assets\\Code\\InputSystem\\UI\\Presenter\\CommandButtonsPresenter.cs",
-              "ViewState": "AQIAADEAAAAAAAAAAAAkwDsAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T21:13:56.445Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProduceUnitCommand.cs",
-              "DocumentMoniker": "C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\Abstractions\\Command\\ProduceUnitCommand.cs",
-              "RelativeDocumentMoniker": "Assets\\Code\\Abstractions\\Command\\ProduceUnitCommand.cs",
-              "ToolTip": "C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\Abstractions\\Command\\ProduceUnitCommand.cs",
-              "RelativeToolTip": "Assets\\Code\\Abstractions\\Command\\ProduceUnitCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T12:36:42.916Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 15,
               "Title": "InputController.cs",
               "DocumentMoniker": "C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\InputSystem\\UI\\Presenter\\InputController.cs",
               "RelativeDocumentMoniker": "Assets\\Code\\InputSystem\\UI\\Presenter\\InputController.cs",
@@ -162,12 +291,11 @@
               "RelativeToolTip": "Assets\\Code\\InputSystem\\UI\\Presenter\\InputController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T14:47:23.344Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-30T14:47:23.344Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 14,
               "Title": "InjectAssetAttribute.cs",
               "DocumentMoniker": "C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\Utils\\InjectAssetAttribute.cs",
               "RelativeDocumentMoniker": "Assets\\Code\\Utils\\InjectAssetAttribute.cs",
@@ -175,12 +303,11 @@
               "RelativeToolTip": "Assets\\Code\\Utils\\InjectAssetAttribute.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T07:41:08.039Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-17T07:41:08.039Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 16,
               "Title": "BuildingSelectorPresenter.cs",
               "DocumentMoniker": "C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\InputSystem\\UI\\Presenter\\BuildingSelectorPresenter.cs",
               "RelativeDocumentMoniker": "Assets\\Code\\InputSystem\\UI\\Presenter\\BuildingSelectorPresenter.cs",
@@ -192,7 +319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 17,
               "Title": "CommandButtonsView.cs",
               "DocumentMoniker": "C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\InputSystem\\UI\\View\\CommandButtonsView.cs",
               "RelativeDocumentMoniker": "Assets\\Code\\InputSystem\\UI\\View\\CommandButtonsView.cs",
@@ -204,7 +331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 22,
               "Title": "People.cs",
               "DocumentMoniker": "C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\Core\\People.cs",
               "RelativeDocumentMoniker": "Assets\\Code\\Core\\People.cs",
@@ -216,7 +343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 20,
               "Title": "ProduceUnitCommand.cs",
               "DocumentMoniker": "C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\InputSystem\\ProduceUnitCommand.cs",
               "RelativeDocumentMoniker": "Assets\\Code\\InputSystem\\ProduceUnitCommand.cs",
@@ -227,7 +354,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 25,
               "Title": "SelectedItemModel.cs",
               "DocumentMoniker": "C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\InputSystem\\UI\\Model\\SelectedItemModel.cs",
               "RelativeDocumentMoniker": "Assets\\Code\\InputSystem\\UI\\Model\\SelectedItemModel.cs",
@@ -239,7 +366,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 26,
               "Title": "ICommand.cs",
               "DocumentMoniker": "C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\Abstractions\\ICommand.cs",
               "RelativeDocumentMoniker": "Assets\\Code\\Abstractions\\ICommand.cs",
@@ -247,11 +374,12 @@
               "RelativeToolTip": "Assets\\Code\\Abstractions\\ICommand.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAAB8AAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T20:41:42.81Z"
+              "WhenOpened": "2024-07-01T20:41:42.81Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 24,
               "Title": "SelectedBuildingsView.cs",
               "DocumentMoniker": "C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\InputSystem\\UI\\View\\SelectedBuildingsView.cs",
               "RelativeDocumentMoniker": "Assets\\Code\\InputSystem\\UI\\View\\SelectedBuildingsView.cs",
@@ -263,19 +391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "CommandExecutorBase.cs",
-              "DocumentMoniker": "C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\Abstractions\\CommandExecutorBase.cs",
-              "RelativeDocumentMoniker": "Assets\\Code\\Abstractions\\CommandExecutorBase.cs",
-              "ToolTip": "C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\Abstractions\\CommandExecutorBase.cs",
-              "RelativeToolTip": "Assets\\Code\\Abstractions\\CommandExecutorBase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T20:28:25.884Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 27,
               "Title": "ICommandExecutor.cs",
               "DocumentMoniker": "C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\Abstractions\\ICommandExecutor.cs",
               "RelativeDocumentMoniker": "Assets\\Code\\Abstractions\\ICommandExecutor.cs",
@@ -287,7 +403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 29,
               "Title": "SelectedItemView.cs",
               "DocumentMoniker": "C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\InputSystem\\UI\\View\\SelectedItemView.cs",
               "RelativeDocumentMoniker": "Assets\\Code\\InputSystem\\UI\\View\\SelectedItemView.cs",
@@ -299,7 +415,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 28,
               "Title": "ISelecatable.cs",
               "DocumentMoniker": "C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\Abstractions\\ISelecatable.cs",
               "RelativeDocumentMoniker": "Assets\\Code\\Abstractions\\ISelecatable.cs",
@@ -312,9 +428,22 @@
           ]
         },
         {
-          "DockedWidth": 45,
+          "DockedWidth": 52,
           "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProduceUnitCommand.cs",
+              "DocumentMoniker": "C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\Abstractions\\Command\\ProduceUnitCommand.cs",
+              "RelativeDocumentMoniker": "Assets\\Code\\Abstractions\\Command\\ProduceUnitCommand.cs",
+              "ToolTip": "C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\Abstractions\\Command\\ProduceUnitCommand.cs",
+              "RelativeToolTip": "Assets\\Code\\Abstractions\\Command\\ProduceUnitCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T12:36:42.916Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 6,
@@ -323,14 +452,13 @@
               "RelativeDocumentMoniker": "Assets\\Code\\Core\\CommandExecutors\\ProduceUnitCommandExecutor.cs",
               "ToolTip": "C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\Core\\CommandExecutors\\ProduceUnitCommandExecutor.cs",
               "RelativeToolTip": "Assets\\Code\\Core\\CommandExecutors\\ProduceUnitCommandExecutor.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T21:58:30.32Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-01T21:58:30.32Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 18,
               "Title": "OutlineSelectorPresenter.cs",
               "DocumentMoniker": "C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\InputSystem\\UI\\Presenter\\OutlineSelectorPresenter.cs",
               "RelativeDocumentMoniker": "Assets\\Code\\InputSystem\\UI\\Presenter\\OutlineSelectorPresenter.cs",
@@ -342,7 +470,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 19,
               "Title": "SelectedItemPresenter.cs",
               "DocumentMoniker": "C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\InputSystem\\UI\\Presenter\\SelectedItemPresenter.cs",
               "RelativeDocumentMoniker": "Assets\\Code\\InputSystem\\UI\\Presenter\\SelectedItemPresenter.cs",
@@ -354,7 +482,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 21,
               "Title": "MainBuilding.cs",
               "DocumentMoniker": "C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\Core\\MainBuilding.cs",
               "RelativeDocumentMoniker": "Assets\\Code\\Core\\MainBuilding.cs",
@@ -366,7 +494,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 23,
               "Title": "SelectedOutlineView.cs",
               "DocumentMoniker": "C:\\ProgWorks\\AnimalsInForest_RTS_Stategy3D\\AnimalsInForest_3D\\Assets\\Code\\InputSystem\\UI\\View\\SelectedOutlineView.cs",
               "RelativeDocumentMoniker": "Assets\\Code\\InputSystem\\UI\\View\\SelectedOutlineView.cs",

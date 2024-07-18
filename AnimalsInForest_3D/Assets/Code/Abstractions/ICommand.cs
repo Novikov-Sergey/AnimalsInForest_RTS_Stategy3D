@@ -12,7 +12,7 @@ namespace Abstraction
     //Команды юнитов
     public interface IAttackCommand : ICommand
     {
-        GameObject Target { get; }
+        GameObject UnitAttack { get; }
     }
 
     public interface IMoveCommand : ICommand

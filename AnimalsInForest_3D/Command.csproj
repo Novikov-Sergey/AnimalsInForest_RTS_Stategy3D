@@ -60,7 +60,11 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.34f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Code\Abstractions\Command\MoveCommand.cs" />
+    <Compile Include="Assets\Code\Abstractions\Command\PatrolCommand.cs" />
     <Compile Include="Assets\Code\Abstractions\Command\ProduceUnitCommand.cs" />
+    <Compile Include="Assets\Code\Abstractions\Command\AttackCommand.cs" />
+    <Compile Include="Assets\Code\Abstractions\Command\StopCommand.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Code\Abstractions\Command\Command.asmdef" />

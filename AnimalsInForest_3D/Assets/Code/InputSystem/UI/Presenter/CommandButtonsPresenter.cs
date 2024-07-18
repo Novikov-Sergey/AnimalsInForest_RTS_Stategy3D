@@ -5,6 +5,9 @@ using InputSystem.UI.View;
 using System.Linq;
 using UnityEngine;
 using Utils;
+using System;
+using static Codice.CM.WorkspaceServer.WorkspaceTreeDataStore;
+//using static Codice.CM.WorkspaceServer.WorkspaceTreeDataStore;
 
 
 namespace InputSystem.UI.Presenter
@@ -69,16 +72,54 @@ namespace InputSystem.UI.Presenter
         // Область реакции на кнопки команд
         private void OnButtonClick(ICommandExecutor commandExecutor)
         {
-            commandExecutor.ExecuteCommand(Injector.Inject(_assets, new ProduceUnitCommand()));
-           // var unitProducer = commandExecutor as CommandExecutorBase<IProduceUnitCommand>;
+            var unitProducer = commandExecutor as CommandExecutorBase<IProduceUnitCommand>;
 
-           // if (unitProducer != null)
-           // {
-           //     unitProducer.ExecuteSpecificCommand(new ProduceUnitCommand());
-           //     return;
-           // }
-           // throw new
-           // ApplicationException($"{nameof(CommandButtonsPresenter)}. {nameof(onButtonClick)}: Unknown type of commands executor: { commandExecutor.GetType().FullName }!");
+            if (unitProducer != null)
+            {
+                unitProducer.ExecuteCommand(Injector.Inject(_assets, new ProduceUnitCommand()));
+                return;
+            }
+
+            var attacker = commandExecutor as CommandExecutorBase<IAttackCommand>;
+            if (attacker != null)
+            {
+                attacker.ExecuteCommand(new AttackCommand());
+                return;
+            }
+
+            var stopper = commandExecutor as CommandExecutorBase<IStopCommand>;
+            if (stopper != null)
+            {
+                stopper.ExecuteCommand(new StopCommand());
+                return;
+            }
+
+            var mover = commandExecutor as CommandExecutorBase<IMoveCommand>;
+            if (mover != null)
+            {
+                mover.ExecuteCommand(new MoveCommand());
+                return;
+            }
+
+            var patroller = commandExecutor as CommandExecutorBase<IPatrolCommand>;
+            if (patroller != null)
+            {
+                patroller.ExecuteCommand(new PatrolCommand());
+                return;
+            }
+
+            throw new ApplicationException($"{nameof(CommandButtonsPresenter)}." +
+                $"{nameof(OnButtonClick)}: Unknown type of commands executor: { commandExecutor.GetType().FullName }!");
+          //  commandExecutor.ExecuteCommand(Injector.Inject(_assets, new ProduceUnitCommand()));
+          // var unitProducer = commandExecutor as CommandExecutorBase<IProduceUnitCommand>;
+
+            // if (unitProducer != null)
+            // {
+            //     unitProducer.ExecuteSpecificCommand(new ProduceUnitCommand());
+            //     return;
+            // }
+            // throw new
+            // ApplicationException($"{nameof(CommandButtonsPresenter)}. {nameof(onButtonClick)}: Unknown type of commands executor: { commandExecutor.GetType().FullName }!");
         }
     }
 }

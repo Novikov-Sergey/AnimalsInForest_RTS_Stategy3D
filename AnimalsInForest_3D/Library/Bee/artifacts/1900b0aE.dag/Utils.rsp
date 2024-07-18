@@ -348,6 +348,7 @@
 "Assets/Code/Utils/AssetsStorage.cs"
 "Assets/Code/Utils/InjectAssetAttribute.cs"
 "Assets/Code/Utils/Injector.cs"
+"Assets/Code/Utils/Test.cs"
 -langversion:9.0
 /deterministic
 /optimize+

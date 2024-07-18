@@ -63,6 +63,10 @@
     <Compile Include="Assets\Code\Core\People.cs" />
     <Compile Include="Assets\Code\Core\CommandExecutors\ProduceUnitCommandExecutor.cs" />
     <Compile Include="Assets\Code\Core\MainBuilding.cs" />
+    <Compile Include="Assets\Code\Core\CommandExecutors\MoveCommandExecutor.cs" />
+    <Compile Include="Assets\Code\Core\CommandExecutors\PatrolCommandExecuter.cs" />
+    <Compile Include="Assets\Code\Core\CommandExecutors\AttackCommandExecutor.cs" />
+    <Compile Include="Assets\Code\Core\CommandExecutors\StopCommandExecutor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Code\Core\Core.asmdef" />
